@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="cache-control" content="no-cache" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Home Style Sheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Font Awesome JavaScript -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville|Montserrat|Quicksand|Raleway|Slabo+27px&display=swap" rel="stylesheet">
+  <!-- Font Awesome JavaScript -->
+  <script src="https://kit.fontawesome.com/0412137e5c.js" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+  <script src='script/script.js' type="text/javascript"></script>
+  <title>The Books Library</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <!-- Marquee Starts -->
+ <!-- <div class="marquee">
+    <marquee behavior="scroll" scrollamount="4" direction="left" class="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+      <a href="#" target="_blank"><i class="fas fa-newspaper"></i> Online Library </a>
+    </marquee>
+  </div>-->
+  <!-- Marquee Ends-->
+  
+    
+
+
+
+  <!-- Title Starts -->
+  <div id="title">
+    <div class="container">
+      <div class="overlay-text">
+       
+        <h1>URDU BOOKS</h1>
+        <a href="index.html"><button type="button" class="btn btn-success">Home</button></a>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <!-- Title Ends -->
+
+  <input id="searchbar" onkeyup="search_book()" type="text"
+        name="search" placeholder="Search book">
+      
+
+
+  
+  
+  <!-- House OF CARDS Section Starts -->
+
+  <div class="container ">
+    <div class="row m-5">
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+
+                        <img src="./urdu images/1.jpg" alt="book_image1">
+                    </div>
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title">AL-BALAGH AL MOBEEN</div>
+                        <span class="blog-slider__code">Author: محمد سلطان مرز</span>
+
+                        <div class="blog-slider__text">عام طور پر مشورہ دیا جاتا ہے کہ یہ کتاب اہل سنت و الجماعت افادہ ہے، اس کتاب کو خریدیں نہ خریدیں۔
+                             </div>
+                        <a href="./urdupdf/1.pdf" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row m-5">
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+
+                        <img src="./urdu images/2.jpg" alt="book_image1">
+                    </div>
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title">ZARB-E KALIM</div>
+                        <span class="blog-slider__code">Author: محمد اقبال</span>
+
+                        <div class="blog-slider__text">جب تک آپ کی نظریں حق حیات پر ہیں، آپ نہیں کر پائیں گے۔.
+                             </div>
+                        <a href="./urdupdf/2.pdf" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row m-5">
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+
+                        <img src="./urdu images/3.jpg" alt="book_image1">
+                    </div>
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title">ARCHEOLOGICAL SURVEY OF INDIA</div>
+                        <span class="blog-slider__code">Author:حکومت ہند </span>
+
+                        <div class="blog-slider__text">ان کے سروے کے حوالے سے آثار قدیمہ کے محکمے کے ذریعے حاصل کردہ دستاویزات اور ثبوت.
+                             </div>
+                        <a href="./urdupdf/3.pdf" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row m-5">
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+
+                        <img src="./urdu images/4.jpg" alt="book_image1">
+                    </div>
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title">BANGE DARA</div>
+                        <span class="blog-slider__code">Author:اقبال</span>
+
+                        <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                             </div>
+                        <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-5">
+      <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+
+                      <img src="./urdu images/5.jpg" alt="book_image1">
+                  </div>
+                  <div class="blog-slider__content">
+                      <div class="blog-slider__title">CHAHAL HADEES</div>
+                      <span class="blog-slider__code">Author:سید محمد ابراہیم نہاری</span>
+
+                      <div class="blog-slider__text">
+                           </div>
+                      <a href="./urdupdf/5.pdf" class="blog-slider__button">READ MORE</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="row m-5">
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+
+                    <img src="./urdu images/6.jpg" alt="book_image1">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">AAP TAKREER KAISE KAREIN</div>
+                    <span class="blog-slider__code">Author:جمیل احمد نندری</span>
+
+                    <div class="blog-slider__text">
+                         </div>
+                    <a href="./urdupdf/6.pdf" class="blog-slider__button">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/7.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">FIRHANG AASFIYA</div>
+                  <span class="blog-slider__code">Author:مولوی ممتاز علی</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/7.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/8.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">FIRHANGA PERSIAN</div>
+                  <span class="blog-slider__code">Author:سعید نفیسی</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/8.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/9.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">IRAN NAAMA</div>
+                  <span class="blog-slider__code">Author:محمد علی</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/9.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/10.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">JAWAHIR KHAMA</div>
+                  <span class="blog-slider__code">Author:نامعلوم</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/10.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/11.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">KHUTBAAT AL-EHKAAM</div>
+                  <span class="blog-slider__code">Author:محمد شفیق</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/11.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/12.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">KITAAB ALNOO</div>
+                  <span class="blog-slider__code">Author:حافظ عبدالرحمن</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/12.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/13.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">TARAS ZINDAGI</div>
+                  <span class="blog-slider__code">Author:نامعلوم</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/13.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/14.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">ZINDAGI KI HALAT</div>
+                  <span class="blog-slider__code">Author:مہاراجہ کشن پرشاد</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/14.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/15.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">MARSI MEER</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/15.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/16.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">MEERUT</div>
+                  <span class="blog-slider__code">Author:ساجدہ علوی</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/16.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/17.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">NEEZUNG KHYAAL</div>
+                  <span class="blog-slider__code">Author:محمد سلیم</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/17.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/18.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">MUKAAMI ZABAAN</div>
+                  <span class="blog-slider__code">Author:قومی لائبریری</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/18.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/19.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">TAARIKH KI TAFSILAAT</div>
+                  <span class="blog-slider__code">Author:نامعلوم</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/19.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/20.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">URDU KITAAB</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/20.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/21.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">BANGE DARA</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/21.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/22.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">ISLAMI OLOOM KE LIYE</div>
+                  <span class="blog-slider__code">Author:ٹورنٹو یونیورسٹی</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/22.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/23.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">TARREKHI KITAAB</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/23.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/24.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">YAGMA</div>
+                  <span class="blog-slider__code">Author:ہاشم</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/24.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/25.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">FIRHANG AASFIYA</div>
+                  <span class="blog-slider__code">Author:محفوظ</span>
+
+                  <div class="blog-slider__text">
+                       </div>
+                  <a href="./urdupdf/25.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!--<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-5">
+  <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+
+                  <img src="./urdu images/4.jpg" alt="book_image1">
+              </div>
+              <div class="blog-slider__content">
+                  <div class="blog-slider__title">بنگے دارا</div>
+                  <span class="blog-slider__code">Author:اقبال</span>
+
+                  <div class="blog-slider__text">خبر تھی کہ غالب کی وفات کے بعد ہندوستان میں ایسا شخص دوبارہ پیدا ہوگا۔.
+                       </div>
+                  <a href="./urdupdf/4.pdf" class="blog-slider__button">READ MORE</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+---->
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="blog-slider__pagination"></div>
+</div>
+
+
+
+  
+
+  <!-- House OF CARDS Section Ends -->
+
+  
+
+
+  <!--- Main Footer Starts --->
+
+  
+
+
+  <!-- Footer -->
+  <footer id="footer" class="footer" data-bg-img="img/title-image2.jpg">
+    <div class="ext1 bg-light">
+    <div class="container d-flex justify-content-center pt-20 pb-20">
+        <a href="index.html"><button type="button" class="btn btn-success">Home</button></a>
+    </div></div>
+    <div class="footer-bottom bg-black-333">
+      <div class="container pt-20 pb-20">
+        <div class="row d-flex justify-content-center">
+          <div class="">
+            <p class="font-11 text-black-777 m-0">Copyright &copy;2021 The Books Library. All Rights Reserved</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!---- Main Footer Ends ---->
+
+
+
+  <script src="js/myscript1.js"></script>
+
+</body>
+
+</html>
