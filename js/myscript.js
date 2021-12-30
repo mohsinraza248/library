@@ -25,3 +25,6 @@ function search_book() {
 		}
 	}
 }
+function setWh() {
+	$('body').css('width': $( window).width(100vw) + 'px');
+	$('body').css('height': $( window).height(100vh) + 'px');
