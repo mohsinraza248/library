@@ -7,8 +7,10 @@
   font-family: markbold;
   src: url(../fonts/MarkForMC-Bold.ttf) format("truetype");
 }
-body{
-        touch-action: manipulation;
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
 }
 body{
   font-family: mark;
